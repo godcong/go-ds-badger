@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	badger "github.com/dgraph-io/badger"
+	"github.com/dgraph-io/badger/v2"
 	ds "github.com/ipfs/go-datastore"
 	dsq "github.com/ipfs/go-datastore/query"
 	logger "github.com/ipfs/go-log"
-	goprocess "github.com/jbenet/goprocess"
+	"github.com/jbenet/goprocess"
 )
 
 var log = logger.Logger("badger")
